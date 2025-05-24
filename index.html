@@ -1,0 +1,26 @@
+<form id="postForm">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem de Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crie seu Post</h1>
+    
+    <form id="postForm">
+        <input type="text" id="titulo" placeholder="Digite o título do post" required>
+        <textarea id="conteudo" placeholder="Digite o conteúdo" required></textarea>
+        <button type="submit">Postar</button>
+    </form>
+
+    <section id="postagem">
+        <h2 id="renderizador-titulo"></h2>
+        <p id="renderizador-conteudo"></p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
